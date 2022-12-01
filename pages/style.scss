@@ -1,0 +1,22 @@
+:root{
+    --color: maroon;
+}
+
+.card{
+    background-color: blue;
+    &-product-title{
+        color: var(--color);
+        &-2{
+            color: black;
+        }
+    }
+}
+.container{
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+    transform: translate(100px);
+    animation-name: aydin;
+    animation-duration: 10s;
+    // this is css and html  programming
+}

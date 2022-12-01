@@ -1,0 +1,173 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@font-face {
+  font-family: iranYekanBold;
+  src: url('./fonts/IRANYekanBoldFaNum.ttf');
+}
+@font-face {
+  font-family: iranYekanEBold;
+  src: url('./fonts/IRANYekanExtraBoldFaNum.ttf');
+}
+@font-face {
+  font-family: iranYekan;
+  src: url('./fonts/IRANYekanRegularFaNum.ttf');
+}
+@font-face {
+  font-family: iranYekanMedium;
+  src: url('./fonts/IRANYekanMediumFaNum.ttf');
+}
+:root{
+  --textDark : #020226 ;
+  --hoverPurple : #2424B2 ;
+  --primaryBlue : #2424B2 ;
+  --textGrayColor : #4E4E68 ;
+  --textDarkseccendry : #4E4E68;
+  --captionColor : #9A9AA8 ;
+  --trxColor : #4E4E68 ;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  color: #020226 !important;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+*{
+  font-family: iranYekan;
+}
+.irandyekanM{
+  font-family: iranYekan !important;
+  font-size: 14px !important;
+  color: var(--textDark);
+}
+.irandyekanM-16{
+  font-family: iranYekan !important;
+  font-size: 16px !important;
+  color: #4E4E68 !important;
+}
+.irandyekanBB-24{
+  font-size: 24px;
+  font-family: iranYekanBold;
+  color: var(--textDark) !important;
+}
+.irandyekanM-12{
+  font-family: iranYekan !important;
+  font-size: 12px !important;
+  color: white !important;
+}
+.irandyekanM-12_t_d{
+  font-family: iranYekan !important;
+  font-size: 12px !important;
+  color: var(--textDark) !important;
+}
+.irandyekanVB{
+  font-family: iranYekanBold !important;
+  font-size: 28px !important;
+  color: var(--textDark);
+  line-height: 1.7;
+}
+.irandyekanBB{
+  font-family: iranYekanBold !important;
+  font-size: 20px !important;
+  color: var(--textDark);
+}
+.irandyekanBB16{
+  font-family: iranYekanBold !important;
+  font-size: 16px !important;
+  color: var(--textDark);
+}.irandyekanBB18{
+  font-family: iranYekanBold !important;
+  font-size: 18px !important;
+  color: var(--textDark);
+}
+ .iranyekanCaptionT{
+   font-size: 10px !important;
+   font-family: iranYekan !important;
+   color: var(--captionColor) !important;
+ }
+.irandyekanMLine-1-8{
+  line-height: 1.8;
+}
+.irandyekanMLine-1-7{
+  line-height: 1.7;
+}
+.gap-10{
+  gap: 10px;
+}
+.gap-20{
+  gap: 20px;
+}
+.gap-30{
+  gap: 30px;
+}
+.gap-40{
+  gap: 40px;
+}
+.c__container{
+  max-width: 1110px !important;
+  position: unset;
+  margin: 0 auto !important;
+}
+.v-input__slot{
+  margin-bottom: 4px !important;
+}
+.v-messages__message{
+  min-width: 100% !important;
+  width: 100% !important;
+  display: block;
+  text-align: right;
+
+}
+.v-btn{
+  letter-spacing: 0 !important;
+}
+.custom_input_text .v-text-field__slot{
+  padding-top: 5px;
+  padding-right: 33px;
+}
+.v-text-field__details{
+  padding: 0 !important;
+}
+.v-input__slot{
+  padding-right: 5px !important;
+}
+
